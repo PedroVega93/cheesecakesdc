@@ -1,0 +1,50 @@
+body{
+  font-family: 'Julius Sans One';
+  background-image: url('../images/fondo.jpg');
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.menu, .menu li, .logotipo {
+  display: inline-block;
+}
+
+.menu li{
+  align-items: baseline;
+}
+
+.logotipo{
+  align-items: center;
+}
+
+.titulo {
+  font-size: 70px;
+}
+
+.title-a {
+  font-size: 24px;
+}
+
+.postres h2 {
+  font-size: 35px;
+}
+
+.title-b {
+  font-size: 50px;
+  font-family: 'Dancing Script';
+}
+
+.portada{
+
+  color: white;
+}
+
+.postres {
+  color: white;
+}
+
+.header {
+  background: black;
+  color: white;
+  font-size: 24px;
+}
