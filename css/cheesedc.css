@@ -1,28 +1,27 @@
 body{
   font-family: 'Julius Sans One';
+  margin: 0px;
   background-image: url('../images/fondo.jpg');
-  background-size: contain;
+  background-size: 100%;
   background-attachment: fixed;
 }
-
 .menu, .menu li, .logotipo {
   display: inline-block;
 }
 
-.menu li{
-  align-items: baseline;
-}
-
-.logotipo{
-  align-items: center;
+.logo {
+  padding-left: 0;
 }
 
 .titulo {
   font-size: 70px;
+  margin-bottom: 10px;
 }
 
 .title-a {
   font-size: 24px;
+  padding-left: 48px;
+  margin-top: -5px;
 }
 
 .postres h2 {
@@ -35,16 +34,63 @@ body{
 }
 
 .portada{
-
+  margin: 10px;
+  padding: 20px;
   color: white;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .postres {
   color: white;
 }
-
 .header {
   background: black;
   color: white;
   font-size: 24px;
+}
+
+.contenedor {
+  width: 800px;
+  margin: auto;
+}
+
+.cheesecake{
+
+    overflow: hidden;
+}
+
+.frutosrojos h3{
+  margin-top: 10px;
+  margin-left: 130px;
+}
+
+.limon h3{
+  margin-top: 10px;
+  margin-left: 255px;
+}
+
+.maracuya h3{
+  padding-left: 411px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.arequipe h3{
+  padding-left: 411px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.frutosrojos, .limon, .arequipe, .maracuya{
+  margin: 10px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.frutosrojos img, .limon img{
+  float: right;
+  margin: 10px;
+}
+
+.arequipe img, .maracuya img{
+  float: left;
+  margin: 10px;
 }
