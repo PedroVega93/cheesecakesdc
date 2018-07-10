@@ -5,12 +5,45 @@ body{
   background-size: 100%;
   background-attachment: fixed;
 }
+A {
+  text-decoration: none;
+  color: white;
+}
+li{
+  list-style:none
+}
+
+nav li{
+  padding: 0 5px;
+}
+
+button{
+  position: relative;
+  left: 615px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  font-family: 'Varela Round';
+  font-size: 15px;
+}
+
 .menu, .menu li, .logotipo {
   display: inline-block;
 }
 
 .logo {
-  padding-left: 0;
+  position: relative;
+  left: 330%;
+}
+
+.menu{
+  position: absolute;
+  right: 7px;
+  top: 75px;
 }
 
 .titulo {
@@ -21,7 +54,7 @@ body{
 .title-a {
   font-size: 24px;
   padding-left: 48px;
-  margin-top: -5px;
+  margin-top: 20px;
 }
 
 .postres h2 {
@@ -34,6 +67,7 @@ body{
 }
 
 .portada{
+  border-radius: 20px;
   margin: 10px;
   padding: 20px;
   color: white;
@@ -50,12 +84,12 @@ body{
 }
 
 .contenedor {
-  width: 800px;
+  width: 900px;
   margin: auto;
 }
 
 .cheesecake{
-
+    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -86,11 +120,16 @@ body{
 }
 
 .frutosrojos img, .limon img{
+  border-radius: 50px;
   float: right;
   margin: 10px;
 }
 
 .arequipe img, .maracuya img{
+  border-radius: 50px;
   float: left;
   margin: 10px;
+}
+.arequipe li{
+  padding-left: 220px;
 }
