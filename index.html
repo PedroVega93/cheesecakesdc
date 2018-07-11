@@ -9,8 +9,8 @@
   <body>
     <header id="header" class="header" >
       <!-- logotipo -->
-      <figure class="logotipo">
-        <img class="logo" src="images/logotipo.jpg" width="180" height="180" alt="Cheesecakes del cielo">
+      <figure class="logotipo" align="center">
+        <img class="logo" src="images/logotipo.jpg" width="350" alt="Cheesecakes del cielo">
       </figure>
       <!-- menu -->
       <nav class="menu">
@@ -72,5 +72,43 @@
         </article>
       </section>
     </div>
+    <footer class="footer">
+        <div class="contenedor-footer">
+          <div class="contacto">
+            <img class="img-footer" src="images/footer.jpg" alt="Cheesecakes del Cielo" width="200">
+            <a href="tel:+573002345678"><strong>Teléfono</strong><span>3002345678</span></a>
+            <p><strong>Siguenos</strong>
+            <a href="https://www.instagram.com/cheesecakesdelcielo/" target=”_blank”><span>Instagram - Cheesecakes del Cielo</span></a>
+            <a href="https://www.facebook.com/cheessecakesdelcielo/" target=”_blank”><span>Facebook - Cheesecakes del Cielo</span></a>
+            </p>
+          </div>
+          <form class="formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Escribe tu nombre" id="nombre" name="nombre">
+            <label for="email">Correo</label>
+            <input type="email" required placeholder="Escribe tu correo" id="email" name="email">
+            <div class="intereses">
+              <label for="cotizacion">
+                <input type="checkbox" name="intereses" id="cotizacion" value="cotizacion">Cotización
+              </label>
+              <label for="recomendacion">
+                <input type="checkbox" name="intereses" id="recomendacion" value="recomendacion">Recomendación
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" name="intereses" id="reclamos" value="reclamos">Reclamos
+              </label>
+              <label for="otros">
+                <input type="checkbox" name="intereses" id="otros" value="otros">Otros
+              </label>
+            </div>
+            <div class="">
+              <label for="comentarios">Comentarios</label>
+              <textarea name="comentarios" rows="8" cols="40"></textarea>
+              <input type="submit" name="" value="Enviar" class="btn-enviar">
+            </div>
+          </form>
+        </div>
+      </footer>
+
   </body>
 </html>
