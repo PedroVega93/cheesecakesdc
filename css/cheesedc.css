@@ -212,3 +212,7 @@ input:focus, textarea:focus{
 .formulario label, .intereses{
   margin-top: 15px;
 }
+
+.label-otros{
+  margin-left: 12px;
+}
