@@ -56,7 +56,7 @@ input:focus, textarea:focus{
 .menu{
   position: absolute;
   right: 7px;
-  top: 55px;
+  top: 145px;
 }
 
 .titulo {
@@ -68,6 +68,8 @@ input:focus, textarea:focus{
   font-size: 24px;
   padding-left: 48px;
   margin-top: 20px;
+  font-family: 'Reem Kufi', sans-serif;
+  font-weight: lighter;
 }
 
 .postres h2 {
@@ -77,6 +79,11 @@ input:focus, textarea:focus{
 .title-b {
   font-size: 50px;
   font-family: 'Dancing Script';
+}
+
+.cheesecake p{
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
 }
 
 .portada{
@@ -111,13 +118,11 @@ input:focus, textarea:focus{
 }
 
 .frutosrojos h3{
-  margin-top: 10px;
-  margin-left: 130px;
+  margin: 10px 0 10px 170px;
 }
 
 .limon h3{
-  margin-top: 10px;
-  margin-left: 255px;
+  margin: 10px 0 10px 255px;
 }
 
 .maracuya h3{
@@ -125,30 +130,40 @@ input:focus, textarea:focus{
   margin-top: 12px;
   margin-bottom: 10px;
 }
-.arequipe h3{
-  padding-left: 411px;
+
+.oreo h3{
+  padding-left: 480px;
   margin-top: 12px;
   margin-bottom: 10px;
 }
 
-.frutosrojos, .limon, .arequipe, .maracuya{
+.arequipe h3{
+  margin: 10px;
+  margin-left: 255px;
+}
+
+.frutosrojos, .limon, .arequipe, .maracuya, .oreo{
   margin: 10px;
   background-color: rgba(0,0,0,0.5);
 }
 
-.frutosrojos img, .limon img{
+.frutosrojos img, .limon img, .arequipe img{
   border-radius: 50px;
   float: right;
-  margin: 10px;
+  margin: 20px 40px 20px 10px;
 }
 
-.arequipe img, .maracuya img{
+.oreo img, .maracuya img{
   border-radius: 50px;
   float: left;
-  margin: 10px;
+  margin: 20px 10px 20px 40px;
 }
-.arequipe li{
-  padding-left: 220px;
+.arequipe p, .limon p, .frutosrojos p{
+  padding: 0 320px 0 40px;
+}
+
+.oreo p, .maracuya p{
+  padding: 0 40px 0 320px;
 }
 
 .footer {
