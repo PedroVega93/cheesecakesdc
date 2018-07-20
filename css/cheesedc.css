@@ -53,7 +53,7 @@ input:focus, textarea:focus{
   padding: 10px 20px;
   font-family: 'Varela Round';
   font-size: 15px;
-  margin: 20px 0 50px 184px;
+  margin: 20px 20px 50px 180px;
 }
 
 .menu, .menu li {
@@ -84,7 +84,7 @@ input:focus, textarea:focus{
 
 .cheesecake p{
   font-family: 'Kalam', cursive;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .portada{
@@ -129,28 +129,27 @@ input:focus, textarea:focus{
 }
 
 .frutosrojos h3{
-  margin: 10px 0 10px 170px;
+  margin: 10px 0 0 105px;
 }
 
 .limon h3{
-  margin: 10px 0 10px 255px;
+  margin: 10px 0 0 200px;
 }
 
 .maracuya h3{
-  padding-left: 411px;
+  padding-left: 450px;
   margin-top: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .oreo h3{
   padding-left: 480px;
   margin-top: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .arequipe h3{
-  margin: 10px;
-  margin-left: 255px;
+  margin: 10px 0 0 190px;
 }
 
 .frutosrojos, .limon, .arequipe, .maracuya, .oreo{
@@ -162,24 +161,29 @@ input:focus, textarea:focus{
 .frutosrojos img, .limon img, .arequipe img{
   border-radius: 50px;
   float: right;
-  margin: 20px 40px 20px 10px;
+  width: 240px;
+  height: 200px;
   position: relative;
-  top: -150px;
+  top: -55px;
 }
 
 .oreo img, .maracuya img{
   border-radius: 50px;
   float: left;
-  margin: 20px 10px 20px 40px;
+  width: 240px;
+  height: 200px;
   position: relative;
-  top: -150px;
+  top: -55px;
 }
+
 .arequipe p, .limon p, .frutosrojos p{
   padding: 0 320px 0 40px;
+  margin-top: 15px;
 }
 
 .oreo p, .maracuya p{
   padding: 0 40px 0 320px;
+  margin-top: 15px;
 }
 
 .footer {
@@ -198,11 +202,12 @@ input:focus, textarea:focus{
 }
 
 .contacto img, .contacto strong {
-  display: block;
+  display: inline-block;
 }
 
 .img-footer{
   margin: 0 45px 0 45px;
+  width: 150px;
 }
 
 .contacto{
@@ -217,12 +222,15 @@ input:focus, textarea:focus{
 }
 
 .footer .contenedor-footer{
-  width: 800px;
   margin: auto;
   padding: 30px 0 30px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.contenedor-img-footer{
+  margin: 0;
 }
 
 .formulario{
@@ -258,6 +266,8 @@ input:focus, textarea:focus{
 }
 
 .col2 textarea{
+  height: 80px;
+  width: 90%;
   margin-right: 10px;
 }
 
@@ -278,90 +288,246 @@ input:focus, textarea:focus{
   transform: scale(1.1);
 }
 
-  @media screen and (max-width: 800px){
-    .header{
-      padding: 0 20px;
-    }
-    .logo{
-      width: 200px;
-    }
-    .logo-nombre{
-      display: none;
-    }
-    .titulo{
-      margin: 15px 0 10px 0;
-      font-size: 50px;
-    }
-    .portada{
-      margin: 10px 30px;
-    }
-    .contenedor{
-      width: 600px;
-    }
-    .title-a{
-      margin:0 0 10px 0;
-    }
-    .conocenos{
-      margin: 0 0 0 70%;
-    }
-    .postres{
-      text-align: center;
-    }
-    .frutosrojos, .limon, .arequipe, .maracuya, .oreo {
-    height: 270px;
-    }
-    .frutosrojos h3, .limon h3, .maracuya h3, .oreo h3, .arequipe h3{
-      margin: 10px 0 10px 0px;
-      padding: 0;
-    }
-    .arequipe p, .limon p, .frutosrojos p {
-    padding: 0 280px 0 40px;
-    font-size: 15px;
-    text-align: justify;
-    }
-    .oreo p, .maracuya p {
-    padding: 0 40px 0 280px;
-    font-size: 15px;
-    text-align: justify;
-    }
-    .frutosrojos img, .limon img, .arequipe img{
-      margin: 10px 40px 0px 0px;
-      width: 200px;
-      height: 170px;
-      top: -97px;
-    }
-    .oreo img, .maracuya img {
-      margin: 10px 0 0 40px;
-      width: 200px;
-      height: 170px;
-      top: -97px;
-    }
-    .footer .contenedor-footer{
-      padding: 0;
-      width: 600px;
-    }
-    .img-footer{
-      margin: 45px;
-    }
-    .contacto{
-      display: inline-block;
-    }
-    .formulario{
-     flex-direction: column;
-     padding: 0;
-    }
-    .col1 input{
-      width: 260px;
-    }
-    .intereses input{
-      width: auto;
-    }
-
-
-    .oreo:hover, .frutosrojos:hover, .limon:hover, .maracuya:hover, .arequipe:hover{
-      transform: none;
-    }
-    .conocenos:hover, .btn-enviar:hover{
-      transform: none;
-    }
+@media screen and (max-width: 960px){
+  .oreo:hover, .frutosrojos:hover, .limon:hover, .maracuya:hover, .arequipe:hover{
+    transform: scale(1.1);
   }
+}
+
+@media screen and (max-width: 890px){
+  .logo-nombre{
+    display: none;
+  }
+  .contenedor{
+    max-width: 700px;
+  }
+  .title-b{
+    font-size: 40px;
+  }
+
+  .frutosrojos h3{
+    margin: 10px 0 0 68px;
+  }
+  .limon h3{
+    margin: 10px 0 0 150px;
+  }
+  .maracuya h3{
+    padding-left: 420px;
+    margin: 12px 0 0 0;
+  }
+  .oreo h3{
+    padding-left: 450px;
+    margin: 10px 0 0 0;
+  }
+  .arequipe h3{
+    margin: 10px 0 0 145px;
+  }
+  .arequipe p, .limon p, .frutosrojos p {
+    padding: 0 305px 0 25px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .oreo p, .maracuya p{
+    padding: 0 20px 0 315px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .frutosrojos img, .limon img, .arequipe img{
+    top: -50px;
+  }
+  .oreo img, .maracuya img{
+    top: -50px;
+  }
+  .btn-enviar{
+    margin-left: 190px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .header{
+    padding: 0 20px;
+  }
+  .logo{
+    width: 200px;
+  }
+  .logo-nombre{
+    display: none;
+  }
+  .titulo{
+    margin: 15px 0 10px 0;
+    font-size: 50px;
+  }
+  .portada{
+    margin: 10px 2%;
+  }
+  .contenedor{
+    max-width: 600px;
+  }
+  .title-a{
+    margin:0 0 10px 0;
+    font-size: 23px;
+  }
+  .conocenos{
+    margin: 0 0 0 70%;
+  }
+  .postres{
+    text-align: center;
+  }
+  .frutosrojos, .limon, .arequipe, .maracuya, .oreo{
+    height: auto;
+  }
+  .frutosrojos h3, .limon h3, .maracuya h3, .oreo h3, .arequipe h3{
+    margin: 10px 0 10px 0px;
+    padding: 0;
+  }
+  .arequipe p, .limon p, .frutosrojos p {
+  padding: 0 280px 0 40px;
+  font-size: 15px;
+  text-align: justify;
+  }
+  .oreo p, .maracuya p {
+  padding: 0 40px 0 280px;
+  font-size: 15px;
+  text-align: justify;
+  }
+  .frutosrojos img, .limon img, .arequipe img{
+    width: 200px;
+    height: 170px;
+    top: 0;
+  }
+  .oreo img, .maracuya img {
+    width: 200px;
+    height: 170px;
+    top: 0;
+  }
+  .footer .contenedor-footer{
+    padding: 0;
+  }
+  .img-footer{
+    margin: 45px;
+  }
+  .contacto{
+    display: block;
+  }
+  .formulario{
+   flex-direction: column;
+   padding: 0;
+  }
+  .col1 input{
+    width: 260px;
+  }
+  .intereses input{
+    width: auto;
+  }
+
+}
+
+@media screen and (max-width: 693px){
+  .postres{
+    border: 1px solid green;
+  }
+  .titulo{
+    font-size: 45px;
+  }
+  .title-a{
+    font-size: 21px;
+  }
+  .oreo:hover, .frutosrojos:hover, .limon:hover, .maracuya:hover, .arequipe:hover{
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 599px){
+  .postres{
+    border: 1px solid yellow;
+  }
+  .titulo{
+    font-size: 40px;
+  }
+  .title-a{
+    font-size: 19px;
+  }
+
+  .arequipe p, .limon p, .frutosrojos p, .oreo p, .maracuya p{
+  font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 540px){
+  .postres{
+    border: 1px solid blue;
+  }
+  .conocenos{
+    margin: 20px 0 0 0;
+    padding: 10px 40px;
+  }
+  .portada{
+    text-align: center;
+  }
+  .titulo{
+    text-align: center;
+    font-size: 35px;
+  }
+  .title-a{
+    font-size: 16px;
+    text-align: justify;
+    padding: 0;
+  }
+  .contenedor{
+    max-width: 400px;
+  }
+  .frutosrojos img, .limon img, .arequipe img,  .oreo img, .maracuya img {
+    float: none;
+  }
+  .arequipe p, .limon p, .frutosrojos p, .oreo p, .maracuya p {
+        padding: 10px 40px 20px 40px;
+  }
+  .footer .contenedor-footer{
+    display: block;
+    max-width: 300px;
+  }
+  .contacto {
+    margin: 0 auto;
+  }
+  .contenedor-img-footer{
+    text-align: center;
+  }
+  .img-footer{
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .col1, .col2{
+    margin: 0;
+  }
+  .formulario{
+    display: block;
+    margin: 0 auto;
+  }
+  .btn-enviar {
+    margin-left: 80px;
+    padding: 10px 40px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .postres{
+    border: 1px solid peru;
+  }
+  .header{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu{
+    width: 100%;
+    border-top: 1px solid white;
+    margin-top: 20px;
+    font-size: 30px
+  }
+  .menu ul{
+    margin: 10px 0;
+  }
+  .menu ul li{
+    margin: 10px;
+  }
+}
