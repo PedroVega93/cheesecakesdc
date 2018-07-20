@@ -423,9 +423,6 @@ input:focus, textarea:focus{
 }
 
 @media screen and (max-width: 693px){
-  .postres{
-    border: 1px solid green;
-  }
   .titulo{
     font-size: 45px;
   }
@@ -438,9 +435,6 @@ input:focus, textarea:focus{
 }
 
 @media screen and (max-width: 599px){
-  .postres{
-    border: 1px solid yellow;
-  }
   .titulo{
     font-size: 40px;
   }
@@ -454,9 +448,6 @@ input:focus, textarea:focus{
 }
 
 @media screen and (max-width: 540px){
-  .postres{
-    border: 1px solid blue;
-  }
   .conocenos{
     margin: 20px 0 0 0;
     padding: 10px 40px;
@@ -510,9 +501,6 @@ input:focus, textarea:focus{
 }
 
 @media screen and (max-width: 450px){
-  .postres{
-    border: 1px solid peru;
-  }
   .header{
     flex-direction: column;
     text-align: center;
@@ -529,5 +517,8 @@ input:focus, textarea:focus{
   }
   .menu ul li{
     margin: 10px;
+  }
+  .contenedor{
+    max-width: 300px;
   }
 }
